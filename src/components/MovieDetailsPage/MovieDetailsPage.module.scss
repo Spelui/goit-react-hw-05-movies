@@ -1,0 +1,76 @@
+.details__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px 0;
+}
+
+.btn {
+  padding: 8px;
+  background-color: #119bf0;
+  border: none;
+  font-weight: 600;
+  border-radius: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: #e4e5e6;
+  }
+}
+
+.img {
+  margin-right: 30px;
+}
+
+.text {
+  font-size: 20px;
+}
+
+.title,
+.average {
+  margin-bottom: 22px;
+}
+
+.overview {
+  font-weight: 600;
+  margin-bottom: 15px;
+
+  &__text {
+    font-size: 18px;
+  }
+}
+
+.genres {
+  font-weight: 600;
+  margin: 15px 0;
+
+  &__text {
+    font-size: 18px;
+  }
+}
+
+.link {
+  display: flex;
+  margin-bottom: 40px;
+
+  &__cast,
+  &__reviews {
+    position: relative;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+
+    &:hover,
+    &:focus {
+      color: #21038d;
+    }
+  }
+}
+
+.active {
+  color: #21038d;
+}
